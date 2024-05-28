@@ -148,6 +148,7 @@ tr td:nth-child(even) {
 
 .preparation-title {
   color: var(--clr-primary-2);
+  font-weight: var(--fw-bold);
 }
 
 /* INSTRUCTIONS */
