@@ -184,6 +184,7 @@ tr td:nth-child(even) {
 }
 
 .preparation-title {
+  font-family: var(--ff-body);
   color: var(--clr-secondary-1);
   font-size: var(--fs-500);
   font-weight: var(--fw-bold);
