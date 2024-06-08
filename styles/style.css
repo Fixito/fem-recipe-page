@@ -41,7 +41,7 @@
   --fw-extra-bold: 700;
 
   /* Rest of vars */
-  --rounded-xl: 0.75rem;
+  --rounded-3xl: 1.5rem;
   --max-wdith: 46rem;
 }
 
@@ -53,6 +53,7 @@ body {
   line-height: 1.5;
   color: var(--clr-neutral-4);
   background-color: var(--clr-neutral-3);
+  padding-block: 7.75rem;
 }
 
 strong {
@@ -159,26 +160,26 @@ tr td:nth-child(even) {
   header {
     max-width: var(--max-wdith);
     background-color: var(--white);
-    border-top-left-radius: var(--rounded-xl);
-    border-top-right-radius: var(--rounded-xl);
+    border-top-left-radius: var(--rounded-3xl);
+    border-top-right-radius: var(--rounded-3xl);
     padding: 2.5rem 2.5rem 0 2.5rem;
   }
 
   header .img {
-    border-radius: var(--rounded-xl);
+    border-radius: var(--rounded-3xl);
   }
 
   .container {
     margin-inline: auto;
-    border-bottom-left-radius: var(--rounded-xl);
-    border-bottom-right-radius: var(--rounded-xl);
+    border-bottom-left-radius: var(--rounded-3xl);
+    border-bottom-right-radius: var(--rounded-3xl);
   }
 }
 
 /* PREPARATION */
 .preparation-section {
   background-color: var(--clr-neutral-1);
-  border-radius: var(--rounded-xl);
+  border-radius: var(--rounded-3xl);
   padding: 1.5rem;
   margin-top: 2em;
 }
