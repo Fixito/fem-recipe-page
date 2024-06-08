@@ -41,6 +41,7 @@
   --fw-extra-bold: 700;
 
   /* Rest of vars */
+  --rounded-xl: 0.75rem;
   --rounded-3xl: 1.5rem;
   --max-wdith: 46rem;
 }
@@ -53,7 +54,6 @@ body {
   line-height: 1.5;
   color: var(--clr-neutral-4);
   background-color: var(--clr-neutral-3);
-  padding-block: 7.75rem;
 }
 
 strong {
@@ -68,11 +68,16 @@ h3 {
   text-wrap: balance;
 }
 
-ul {
+ul,
+ol {
   padding-inline-start: 1.5rem;
 }
 
 ul > * + * {
+  margin-block-start: 0.5em;
+}
+
+ol > * + * {
   margin-block-start: 0.5em;
 }
 
@@ -153,6 +158,7 @@ tr td:nth-child(even) {
 
 @media screen and (min-width: 768px) {
   body {
+    padding-block: 7.75rem;
     display: grid;
     place-items: center;
   }
@@ -166,7 +172,7 @@ tr td:nth-child(even) {
   }
 
   header .img {
-    border-radius: var(--rounded-3xl);
+    border-radius: var(--rounded-xl);
   }
 
   .container {
