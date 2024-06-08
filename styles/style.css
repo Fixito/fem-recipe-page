@@ -156,6 +156,21 @@ tr td:nth-child(even) {
   font-weight: var(--fw-normal);
 }
 
+/* PREPARATION */
+.preparation-section {
+  background-color: var(--clr-neutral-1);
+  border-radius: var(--rounded-3xl);
+  padding: 1.5rem;
+  margin-top: 2em;
+}
+
+.preparation-title {
+  font-family: var(--ff-body);
+  color: var(--clr-secondary-1);
+  font-size: var(--fs-500);
+  font-weight: var(--fw-bold);
+}
+
 @media screen and (min-width: 768px) {
   body {
     padding-block: 7.75rem;
@@ -181,19 +196,8 @@ tr td:nth-child(even) {
     border-bottom-right-radius: var(--rounded-3xl);
     padding-inline: 2.5rem;
   }
-}
 
-/* PREPARATION */
-.preparation-section {
-  background-color: var(--clr-neutral-1);
-  border-radius: var(--rounded-3xl);
-  padding: 1.5rem;
-  margin-top: 2em;
-}
-
-.preparation-title {
-  font-family: var(--ff-body);
-  color: var(--clr-secondary-1);
-  font-size: var(--fs-500);
-  font-weight: var(--fw-bold);
+  .preparation-section {
+    padding: 1.75rem;
+  }
 }
