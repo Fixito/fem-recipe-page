@@ -179,6 +179,7 @@ tr td:nth-child(even) {
     margin-inline: auto;
     border-bottom-left-radius: var(--rounded-3xl);
     border-bottom-right-radius: var(--rounded-3xl);
+    padding-inline: 2.5rem;
   }
 }
 
