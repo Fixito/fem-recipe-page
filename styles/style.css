@@ -159,7 +159,7 @@ tr td:nth-child(even) {
 /* PREPARATION */
 .preparation-section {
   background-color: var(--clr-neutral-1);
-  border-radius: var(--rounded-3xl);
+  border-radius: var(--rounded-xl);
   padding: 1.5rem;
   margin-top: 2em;
 }
